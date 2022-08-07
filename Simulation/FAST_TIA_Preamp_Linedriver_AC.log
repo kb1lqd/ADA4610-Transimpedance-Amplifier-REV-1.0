@@ -1,0 +1,46 @@
+Circuit: * C:\Users\KB1LQ\OneDrive\Documents\GitHub\ADA4610-Transmipedance-Amplifier-REV-1.0\Simulation\FAST_TIA_Preamp_Linedriver_AC.asc
+
+WARNING: Less than two connections to node +10V.  This node is used by V3.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+Gmin = 0.274568
+vernier = 0.666667
+vernier = 0.888888
+Gmin = 0.053011
+vernier = 1
+Gmin = 0.006089
+Gmin = 0.000653801
+Gmin = 7.02013e-005
+Gmin = 7.53781e-006
+Gmin = 8.09366e-007
+Gmin = 8.6905e-008
+Gmin = 9.33136e-009
+Gmin = 1.00195e-009
+Gmin = 1.07583e-010
+Gmin = 1.15517e-011
+Gmin = 1.24035e-012
+Gmin = 1.33182e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Sun Aug 07 01:46:39 2022
+Total elapsed time: 0.311 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 1006
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 252
+fillins = 486
+solver = Normal
+Matrix Compiler1:    1917 opcodes
+Matrix Compiler2: 27.00 KB object code size  3.7/4.8/[1.3]
+
