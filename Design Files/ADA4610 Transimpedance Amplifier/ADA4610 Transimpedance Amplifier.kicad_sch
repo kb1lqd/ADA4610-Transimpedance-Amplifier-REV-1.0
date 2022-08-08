@@ -1657,7 +1657,7 @@
     (property "Value" "ODD-1W" (id 1) (at 55.88 106.9974 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 50.8 105.41 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-18-2_Lens" (id 2) (at 50.8 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 50.8 105.41 0)
@@ -1810,7 +1810,7 @@
     (property "Value" "Conn_Coaxial" (id 1) (at 264.16 96.8131 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 261.62 95.25 0)
+    (property "Footprint" "ADA4610-transimpedance-amplifier:RFSOLUTIONS_CON-SMA-EDGE-S" (id 2) (at 261.62 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 261.62 95.25 0)
@@ -2302,7 +2302,7 @@
       (reference "C7") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/77fe5954-2f88-4ed4-92bc-bc3cc4ac221b"
-      (reference "D1") (unit 1) (value "ODD-1W") (footprint "")
+      (reference "D1") (unit 1) (value "ODD-1W") (footprint "Package_TO_SOT_THT:TO-18-2_Lens")
     )
     (path "/0e9ad7f4-e2e4-4f66-a3cd-b654f2049983"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
@@ -2320,7 +2320,7 @@
       (reference "J1") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical")
     )
     (path "/95f2c62c-a009-4fa4-97f8-20f682525c95"
-      (reference "J2") (unit 1) (value "Conn_Coaxial") (footprint "")
+      (reference "J2") (unit 1) (value "Conn_Coaxial") (footprint "ADA4610-transimpedance-amplifier:RFSOLUTIONS_CON-SMA-EDGE-S")
     )
     (path "/713ca44b-f876-4e30-93a9-006e69ad0296"
       (reference "R1") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
