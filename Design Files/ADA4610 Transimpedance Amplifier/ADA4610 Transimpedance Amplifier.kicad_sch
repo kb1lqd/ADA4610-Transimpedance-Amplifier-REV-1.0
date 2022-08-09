@@ -1251,7 +1251,7 @@
     (property "Reference" "TP7" (id 0) (at 247.65 80.5179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TP_OUTPUT_50OHM" (id 1) (at 247.65 83.0579 0)
+    (property "Value" "TP_OUT_50-OHM" (id 1) (at 247.65 83.0579 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (id 2) (at 250.19 85.09 0)
@@ -2354,7 +2354,7 @@
       (reference "TP6") (unit 1) (value "TP_OUTPUT") (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose")
     )
     (path "/0d3b6448-884c-4656-9607-90a1b575d3f4"
-      (reference "TP7") (unit 1) (value "TP_OUTPUT_50OHM") (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose")
+      (reference "TP7") (unit 1) (value "TP_OUT_50-OHM") (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose")
     )
     (path "/d40ba23e-8518-42c3-b6f8-270decb2e700"
       (reference "U1") (unit 1) (value "ADA4610-1xR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
