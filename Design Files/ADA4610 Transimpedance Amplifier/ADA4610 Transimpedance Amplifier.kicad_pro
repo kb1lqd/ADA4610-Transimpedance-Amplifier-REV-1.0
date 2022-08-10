@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.15239999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "items_not_allowed|133350000|107950000|7501375c-8560-419c-af3a-03db6c2ae9dc|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|133350000|57150000|4b17cc79-599e-4dcc-bf5f-a74899bd0c13|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|82550000|107950000|b7dacf6a-c5d1-4938-afec-131d6d132a2c|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|82550000|57150000|0c07dadb-7cd8-4fc1-b320-11d7042871b0|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -119,12 +124,30 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.254,
+        0.381,
+        0.508,
+        0.5588,
+        0.635,
+        0.762
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.762,
+          "drill": 0.508
+        },
+        {
+          "diameter": 0.889,
+          "drill": 0.635
         }
       ],
       "zones_allow_external_fillets": false,
@@ -364,6 +387,24 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.254,
+        "name": "50-Ohm",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5588,
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6.0
