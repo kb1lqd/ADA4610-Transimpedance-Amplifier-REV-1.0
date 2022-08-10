@@ -20,8 +20,6 @@
     (45 "Margin" user)
     (46 "B.CrtYd" user "B.Courtyard")
     (47 "F.CrtYd" user "F.Courtyard")
-    (48 "B.Fab" user)
-    (49 "F.Fab" user)
     (50 "User.1" user)
     (51 "User.2" user)
     (52 "User.3" user)
@@ -45,7 +43,7 @@
       (copper_finish "None")
       (dielectric_constraints no)
     )
-    (pad_to_mask_clearance 0)
+    (pad_to_mask_clearance 0.0508)
     (aux_axis_origin 82.55 107.95)
     (grid_origin 82.55 107.95)
     (pcbplotparams
