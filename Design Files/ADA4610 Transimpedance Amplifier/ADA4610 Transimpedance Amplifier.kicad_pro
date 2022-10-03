@@ -421,7 +421,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ADA4610 Transimpedance Amplifier.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
