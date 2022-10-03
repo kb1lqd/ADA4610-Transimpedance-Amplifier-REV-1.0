@@ -32,15 +32,15 @@ I've noticed a faire bit of noise in the circuit. Hooking a scope up to the TP o
 
 **Noise on the TIA PCB 50 Ohm Output***
 
-![](Photos\2022-10-03_TPOUTPUT_OSC_1.png)
+![](Photos/2022-10-03_TPOUTPUT_OSC_1.png)
 
-** Noise on the TIA Output directly**
+**Noise on the TIA Output directly**
 
-![](Photos\2022-10-03_TIA_OUTPUT_OSC_2.png)
+![](Photos/2022-10-03_TIA_OUTPUT_OSC_2.png)
 
-I can see and hear the 120 Hz hum from my indoor (dim) lights that this noise is ontop of.
+I can see and hear the 120 Hz hum from my indoor (dim) lights that this noise is on top of.
 
-![](Photos\2022-10-03_TIA_OUTPUT_OSC_1.png)
+![](Photos/2022-10-03_TIA_OUTPUT_OSC_1.png)
 
 
 
