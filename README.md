@@ -42,7 +42,35 @@ I can see and hear the 120 Hz hum from my indoor (dim) lights that this noise is
 
 ![](Photos/2022-10-03_TIA_OUTPUT_OSC_1.png)
 
+# 2022-10-04
 
+* I put the recommended bulk capacitors on the PYBE20-Q24-D5-T - No significant change but leaving them There
+* I think it may have knocked a bit of the switching noise off
+  * I defintely see a 32KHz DC/DC switching noise but it's near my scopes limit
+  * It is seen on the preamp section op-amp bulk capacitors and in the TIA signal itself - It may be ground noise coming through the GND clip...?
+  * Placing bulk capacitance on the preamp - no effect
+* I added a 15pF capacitor to C2 to help bypass any HF signals past the 0 ohm or stabalize the POS input when in a higher impedance configuration
+* I changed the Cf on the TIA (C4) from 3.3pF to 33pF for improved stability - No significant change - The nosie see is the same and defintely switching noise (likley on GND)
+* I iterated a Cf across R8 and found that a 1nF completely kills the oscillation see - Tried ~200pF with good results but sign reduced from ~300mV to 60mV peak to peak.
+
+I'm getting subjectively reduced noise!
+
+I can clearly head music and tones from an online frequency generator through the transmitter (Although I don't think it's fully modulating the LED)
+
+I listened to a few signals:
+
+**iPhone FaceID Pulses**
+
+The pulses are very clear (DC Coupled scope after the DC blocking capacitor) with a rise time of 92us (~3KHz)
+
+![](Photos/iPhone_Face_ID_Pulse.png)
+
+
+**Optical Mouse LED/LASER**
+
+This was much quicker of a signal and measured around 3.6us which is approximately (0.35/Tr) 100KHz bandwidth. I don't know what this signal looks linear.
+
+![](Photos/Logitech_Optical_Mouse_Signal.png)
 
 
 # To-Do
