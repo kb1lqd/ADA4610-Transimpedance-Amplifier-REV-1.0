@@ -72,6 +72,10 @@ This was much quicker of a signal and measured around 3.6us which is approximate
 
 ![](Photos/Logitech_Optical_Mouse_Signal.png)
 
+# 2022-12-26
+
+* I soldered a new TIA PCB together (Ver1.1) with just U1 TIA. I found that the TIA was stable at RF=10K and CF=6.6pF with the diode in photovoltaic mode (grounded) and the TIA V+ referenced to GND. This configuration did require U1 to operate with a split rail.
+* I was wrong in the prior testing and it seemed that the U2 second stage was LPF'ing the 37KHz IRDA signals. I was clearly able to see the IRDA waveforms (still looked RC charged/discharged but that might have been the IR remote itself - More investigation needed.
 
 # To-Do
 * [DONE] Track down oscillation

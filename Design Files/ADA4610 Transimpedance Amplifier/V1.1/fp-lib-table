@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ADA4610-transimpedance-amplifier")(type "KiCad")(uri "${KIPRJMOD}/ADA4610-transimpedance-amplifier.pretty")(options "")(descr ""))
+)
